@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>슬라이드</title>
+		<link rel="stylesheet" href="./css/style.css" />
+		<script src="./js/jquery-3.6.4.js"></script>
+		<script defer src="./js/main.js"></script>
+	</head>
+	<body>
+		<div id="slider">
+			<!-- ul.panal>li*5{$} -->
+			<ul class="panel">
+				<li class="on">1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+			</ul>
+			<ul class="navi">
+				<li><a href="#" class="on"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+			</ul>
+			<!-- 버튼부분 -->
+			<a href="#" class="prev"></a>
+			<a href="#" class="next"></a>
+
+			<button id="start" type="button">시작</button>
+			<button id="stop" type="button" disabled>멈춤</button>
+		</div>
+		<!-- disabled - 무력화한다 -->
+	</body>
+</html>
